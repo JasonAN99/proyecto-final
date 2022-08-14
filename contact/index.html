@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Jason Aguilar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <nav>
+        <a class="a-transparent" href="../index.html">Home</a>
+        <a class="a-transparent" href="../resume/index.html">Resume</a>
+        <a class="a-transparent" href="../projects/index.html">Projects</a>
+        <a class="a-transparent" href="./index.html">Contact</a>
+      </nav>
+    </header>
+    <main class="main-sections">
+      <div class="div-contact">
+        <section>
+          <hr class="hr-no-margin">
+          <h1 class="h1-not-index">Contact</h1>
+          <P class="p-principal">Send a general message or details of a project you'd like me to be a part of and I'll get back to you as soon as possible.</P>
+        </section>
+        <div class="div-form">
+          <form action="" method="get">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email address">
+            </div>
+            <div>
+              <label for="reason">Reason</label>
+              <select name="reason" id="reason">
+                <option value="" disabled selected hidden>Choose a reason</option>
+                <option value="details">Details of a project</option>
+                <option value="general">General Message</option>
+                <option value="greetings">Greetings</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" cols="30" placeholder="Your message here..."></textarea>
+            </div>
+            <div class="div-submit">
+              <button class="submit" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>Get in touch</h2>
+      <div class="contact">
+        <a class="a-footer" href="mailto:jasonan99@gmail.com">jasonan99@gmail.com</a>
+        <a class="a-footer" href="tel:+50687654321">+506 8765 4321</a>
+        <address>San José, Costa Rica</address>
+      </div>
+      <div class="media">
+        <a href="https://github.com/JasonAN99" rel="noopener noreferrer"><img class="social" src="../images/github.jpg" alt=""><span class="visually-hidden">Follow me on github @JasonAN99</span></a>
+        <a href="https://www.instagram.com/jasonaguilarn/" rel="noopener noreferrer"><img class="social" src="../images/instagram.jpg" alt=""><span class="visually-hidden">Follow me on instagram @jasonaguilarn</span></a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
